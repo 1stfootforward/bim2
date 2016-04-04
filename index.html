@@ -376,7 +376,7 @@
             <h5 class="text-muted">Quality at a Discount</h5>
             <p class="wp wp-7 card-subtitle"> While our Christchurch customer service team will be your first point of contact, our studio in Santiago, Chile allows us to offer expert skills from architects and technicians trained in Chile’s top universities at a significantly lower price than other local alternatives.</p>
           </div>
-          <div class="col-md-5 col-md-offset-2 separator-x">
+          <div class="other-logos col-md-5 col-md-offset-2 separator-x">
             <div class="row">
               <div class="col-md-6 vertical-align"><img src="img/a.jpg" alt="iPad mock" class="img-fluid center-block vertical-align"></div>
               <div class="col-md-6 vertical-align"><img src="img/b.jpg" alt="iPad mock" class="img-fluid center-block vertical-align"></div>
@@ -446,23 +446,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/landio.min.js"></script>
-    <script>
-      jQuery(document).ready(function($) {
-  
-        var navbar = $('#navbar-main'),
-            distance = navbar.offset().top,
-            $window = $(window);
-
-        $window.scroll(function() {
-            if ($window.scrollTop() >= distance) {
-                navbar.removeClass('nav-fixed-top').addClass('nav-fixed-top');
-                $("body").css("padding-top", "70px");
-            } else {
-                navbar.removeClass('nav-fixed-top');
-                $("body").css("padding-top", "0px");
-            }
-        });
-    });
-    </script>
+    
   </body>
 </html>

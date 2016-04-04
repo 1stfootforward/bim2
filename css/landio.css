@@ -86,7 +86,7 @@ img.trip {
 
 .nav-link { width: 100px; height: 50px!important; text-align:center!important;}
 
-.sec.jumbotron{height: 80%!important; padding-top:7rem;margin-bottom:0;background:#663fb5 url(../img/bg-header-a.jpg) no-repeat center bottom;background-size:cover;border-radius:0}
+.sec.jumbotron{height: 70%!important; padding-top:7rem;margin-bottom:0;background:#663fb5 url(../img/bg-header-a.jpg) no-repeat center bottom;background-size:cover;border-radius:0}
 
 @media only screen and (min-width: 780px) {
     .hid-small {
@@ -95,6 +95,8 @@ img.trip {
     .hid-big {
     	display: none!important;
     }
+
+
 }
 
 @media only screen and (max-width: 780px) {
@@ -108,6 +110,12 @@ img.trip {
     	display: inline!important;
     	text-align: center!important;
     }
+
+    .line img {
+    	opacity: 0.5;
+    	z-index: -1;
+		margin-top: -250px;
+	}
 }
 
 .mobile-blue {
@@ -119,4 +127,33 @@ img.trip {
 	padding-top: 40px;
 	margin-left: 40px;
 	margin-right: 40px;
+}
+
+.other-logos img{ max-height: 70px; margin-bottom: 20px;}
+
+.pad {
+	padding: 15px 15px 15px 15px;
+}
+
+.line {
+	text-decoration: overline;
+	color: #1397D5;
+	text-align: left!important;
+    
+}
+
+.line span {
+  color: black;
+  text-align: left!important;
+}
+
+.line img {
+	position: absolute;
+	margin-top: -70px;
+	text-align: right!important;
+	right: 0!important;
+}
+
+.card-block {
+	margin-top: 70px;
 }
