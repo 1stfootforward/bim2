@@ -87,3 +87,36 @@ img.trip {
 .nav-link { width: 100px; height: 50px!important; text-align:center!important;}
 
 .sec.jumbotron{height: 80%!important; padding-top:7rem;margin-bottom:0;background:#663fb5 url(../img/bg-header-a.jpg) no-repeat center bottom;background-size:cover;border-radius:0}
+
+@media only screen and (min-width: 780px) {
+    .hid-small {
+    	display: inline;!important;
+    }
+    .hid-big {
+    	display: none!important;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .hid-small {
+    	display: none!important;
+    }
+    .navbar-fixed-top {
+    	display: none!important
+    }
+    .hid-big {
+    	display: inline!important;
+    	text-align: center!important;
+    }
+}
+
+.mobile-blue {
+	background-color: #1397D5;
+	color: white;
+	margin-top: -100px;
+	height: 150px;
+	margin-bottom: 30px;
+	padding-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
